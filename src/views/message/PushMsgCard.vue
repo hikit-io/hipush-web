@@ -1,12 +1,10 @@
-<template>
-$END$
-</template>
+<script lang="ts" setup>
 
-<script>
-export default {
-name: "PushMsgCard"
-}
 </script>
+
+<template>
+
+</template>
 
 <style scoped>
 

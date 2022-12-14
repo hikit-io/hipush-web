@@ -1,12 +1,10 @@
-<template>
-$END$
-</template>
+<script lang="ts" setup>
 
-<script>
-export default {
-name: "Application"
-}
 </script>
+
+<template>
+<span>Application</span>
+</template>
 
 <style scoped>
 
