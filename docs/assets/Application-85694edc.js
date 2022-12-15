@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vueexport-helper-c27b6911.js";import{o as c,b as e}from"./index-c4d34916.js";const n={};function t(r,a){return c(),e("span",null,"Application")}const _=o(n,[["render",t]]);export{_ as default};

@@ -9,6 +9,10 @@ const router = createRouter({
             redirect: '/login'
         },
         {
+            path: '/login',
+            component: () => import("../views/Login.vue")
+        },
+        {
             path: '/index',
             component: () => import("../views/Index.vue"),
             children: [
@@ -16,10 +20,6 @@ const router = createRouter({
                     path: '/application',
                     component: () => import("../views/Application.vue")
                 },
-                {
-                    path: '/login',
-                    component: () => import("../views/Login.vue")
-                }
             ]
         },
     ]

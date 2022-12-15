@@ -31,7 +31,10 @@ const onLogin = () => {
   <div class="container">
     <el-card class="card" :body-style="bodyStyle">
       <el-space :direction="'vertical'" :fill="true">
-        <h1>Hi Push</h1>
+        <el-space>
+          <el-image style="width: 100px;height: 100px;" src="https://avatars.githubusercontent.com/u/86421959?s=200&v=4"/>
+          <h1>Hi Push</h1>
+        </el-space>
         <el-input :placeholder="'Endpoint'" v-model="form.endpoint">
           <template #prepend>
             <el-select style="width: 90px;" v-model="form.scheme" :default-first-option="true">
